@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav, footer, header, aside{display: block;}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {font-family: inherit;}
+
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+body{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+
+
+.menu{
+    background-color: #156CD2;
+}
+
+.menu__back{
+    display: flex;
+    background-color: #0077ff;
+    align-items: center;
+    width: 1200px;
+    height: 70px;
+    margin: 0 auto 0 auto;
+}
+
+.menu__logo{
+    margin: 0 193px 0 37px;
+}
+.menu__logo img{
+    display: block;
+    width: 70px;
+}
+
+.menu__link{
+    font-size: 32px;
+    margin-right: 48px;
+}
+
+.menu__link a{
+    color: rgb(255, 255, 255);
+}
+.menu__link a:hover{
+    color: black;
+}
+
+.about{
+    background-color: rgb(255, 255, 255);
+}
+.about__back{
+    width: 1200px;
+    height: 750px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.about__back h1{
+    font-size: 48px;
+    line-height: 58px;
+    padding: 77px 0 0 28px;
+}
+
+.about__back p{
+    font-size: 36px;
+    line-height: 44px;
+    margin: 66px 0 88px 36px;
+    width: 371px;
+}
+
+.about__back span{
+    color: #0077ff;
+}
+
+.about__buttom button{
+    display: block;
+    font-size: 48px;
+    line-height: 59px;
+    color: white;
+    background-color: #156CD2;
+    width: 372px;
+    padding: 7px 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.about__buttom button:hover{
+    color: rgb(2, 160, 2);
+    font-weight: 600;
+    width: 400px;
+    height: 100px;
+    margin-left: 50px;
+    background-color: #4d8acf;
+}
+
+.about__back img{
+    display: block;
+    width: 568px;
+    position: absolute;
+    bottom: 30px;
+    right: 42px;
+}
+
+
+.benefits{
+    background-color: #156CD2;
+}
+.benefits__back{
+    width: 1200px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.benefits__back h1{
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    padding: 69px 0 57px 0;
+}
+
+.benefits__conteiner{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.column{
+    width: 382px;
+}
+
+.column img{
+    display: block;
+    width: 272px;
+    margin: 0 auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.column p{
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+.products{
+    background-color: #E8E8E8;
+}
+.products__back{
+    width: 1200px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.products__back h1{
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    padding: 69px 0 57px 0;
+    color: black;
+    font-weight: 700;
+}
+
+.products__conteiner{
+    display: flex;
+    justify-content: center;
+    gap: 62px;
+}
+
+.card{
+    width: 313px;
+    height: 401px;
+    background-color: #D9D9D9;
+    box-shadow: 10px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 44px;
+    padding: 30px 35px;
+}
+
+.card_whiteback{
+    background-color: white;
+    width: 232px;
+    border-radius: 44px;
+    margin: 0 auto;
+}
+
+.card_whiteback img{
+    display: block;
+    width: 232px;
+}
+.card p{
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.footer{
+    background-color: #000000E3;
+}
+.footer__back{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+.footer__back__div{
+    font-size: 48px;
+    line-height: 58px;
+    color: #4F4949;
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+/*hover active*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
